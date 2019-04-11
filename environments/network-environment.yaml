@@ -1,0 +1,4 @@
+resource_registry:
+  OS::TripleO::ComputeSriov::Net::SoftwareConfig: ../network/config/single-nic-vlans/compute.yaml
+  OS::TripleO::Controller::Net::SoftwareConfig: ../network/config/single-nic-vlans/controller.yaml
+#  OS::TripleO::CephStorage::Net::SoftwareConfig: ../network/config/single-nic-vlans/ceph-storage.yaml
