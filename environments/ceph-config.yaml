@@ -7,6 +7,10 @@ parameter_defaults:
     osd_scenario: collocated
     devices:
       - /dev/sdb
+  CephAnsibleExtraConfig:
+    ceph_osd_docker_memory_limit: 5g
+    ceph_osd_docker_cpu_limit: 1
+    is_hci: true
   CephConfigOverrides:
     osd_pool_default_pg_num: 8
     osd_pool_default_pgp_num: 8
